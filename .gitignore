@@ -52,3 +52,18 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+# Ignore all build folders
+build/
+build-*/
+
+# Ignore user-specific configuration
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user*
+
+# Ignore compiled artifacts
+*.exe
+*.dll
+*.obj
+
